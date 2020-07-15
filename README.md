@@ -30,7 +30,7 @@ Deverá ser utilizado o [Teorema de Bayes](https://pt.wikipedia.org/wiki/Teorema
 
 O [Teorema de Bayes](https://pt.wikipedia.org/wiki/Teorema_de_Bayes) denota a probabilidade de um evento ocorrer, dado um conhecimento _a priori_ :
 
-$$P(A|B) = \frac{P(B|A)P(A)}{P(B)}$$
+<img src="https://render.githubusercontent.com/render/math?math=P(A|B)%20=%20\frac{P(B|A)P(A)}{P(B)}">
 
 Com o Teorema de Bayes, você irá calcular a probabilidade de uma palavra ter vindo de um determinado texto, da coleção de textos disponíveis.
 
@@ -44,7 +44,7 @@ Tome o seguinte exemplo para elucidar a equação.
 
 Uma pessoa vai ao médico, reclamando de torcicolo. O médico sabe que uma pessoa que está com meningite apresenta pescoço rígido em 50% dos casos. A probabilidade de uma pessoa ter meningite é de 1 em 50000 casos, e a de ter torcicolo (independente da causa) é de 1 em 20. Logo, a probabilidade do paciente ter meningite, dado que está com torcicolo, é de
 
-$$P(\text{meningite}|\text{torcicolo}) = \frac{P(\text{torcicolo}|\text{meningite})P(\text{meningite})}{P(\text{torcicolo})} = \frac{0.5 * 0.00002}{0.05} = 0.0002 = 0.02\%$$
+<img src="https://render.githubusercontent.com/render/math?math=P(\text{meningite}|\text{torcicolo})=\frac{P(\text{torcicolo}|\text{meningite})P(\text{meningite})}{P(\text{torcicolo})}=\frac{0.5*0.00002}{0.05}=0.0002">
 
 ## Textos
 
