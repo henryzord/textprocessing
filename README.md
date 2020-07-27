@@ -60,21 +60,46 @@ Cinco textos jornalísticos devem ser utilizados para este trabalho. Os textos s
 
 Para auxiliar na resolução do problema, confira abaixo a probabilidade de ocorrência de algumas palavras. No desenvolvimento do seu trabalho, utilize estas respostas para verificar se o seu código está calculando as probabilidades corretamente.
 
+**Nota:** A contagem de palavras do seu método pode ser um pouco diferente da minha contagem de palavras. **Isso não interferirá na constituição da sua nota**. Pequenas
+diferenças de contagens serão desconsideradas.
+
+#### Contagem de palavras
+
+| Texto   | Contagem |
+|:--------|---------:|
+| texto_1 |     1310 |
+| texto_2 |      362 |
+| texto_3 |      192 |
+| texto_4 |      924 |
+| texto_5 |     1025 |
+
+#### Contagem da palavra 'pandemic' nos textos
+
+| pandemic | Contagem |
+|:---------|---------:|
+|  texto_1 |        4 |
+|  texto_2 |        0 |
+|  texto_3 |        0 |
+|  texto_4 |        4 |
+|  texto_5 |        1 |
+
+#### Probabilidades
+
 |  Query                        |  Probabilidade  |
 |:------------------------------|:----------------|
-| P('pandemic')                 |  0.005          |
-| P('pandemic' \| texto_1)      |  0.0071         |
+| P('pandemic')                 |  0.00236        |
+| P('pandemic' \| texto_1)      |  0.003053       |
 | P('pandemic' \| texto_2)      |  0.0            |
 | P('pandemic' \| texto_3)      |  0.0            |
-| P('pandemic' \| texto_4)      |  0.0094         |
-| P('pandemic' \| texto_5)      |  0.0021         |
+| P('pandemic' \| texto_4)      |  0.004329       |
+| P('pandemic' \| texto_5)      |  0.000976       |
 |                               |                 |
-| P('coronavirus')			    |  0.0101         |
-| P('coronavirus' \| texto_1)	|  0.0071         |
-| P('coronavirus' \| texto_2)	|  0.0146         |
-| P('coronavirus' \| texto_3)	|  0.0088         |
-| P('coronavirus' \| texto_4)	|  0.0141         |
-| P('coronavirus' \| texto_5)	|  0.0084         |
+| P('coronavirus')			    |  0.004721       |
+| P('coronavirus' \| texto_1)	|  0.003053       |
+| P('coronavirus' \| texto_2)	|  0.008287       |
+| P('coronavirus' \| texto_3)	|  0.005208       |
+| P('coronavirus' \| texto_4)	|  0.006494       |
+| P('coronavirus' \| texto_5)	|  0.003902       |
 
 ## Ferramental
 
